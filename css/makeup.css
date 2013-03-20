@@ -1,0 +1,23 @@
+body {
+	font-family: Calibri, sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+#question {
+	margin: 5% auto 0 auto;
+	width: 40%;
+}
+
+#question div {
+	font-size: 32px;
+	line-height: 48px;
+	cursor: pointer;
+}
+
+#question div:hover {
+	border-left: solid 6px red;
+	padding-left: 9px;
+}
