@@ -19,7 +19,7 @@ function getQA(count) {
 	while(result.answers.length < count - 1) {
 		var answer = data[getRandomInt(0, data.length - 1)];
 		
-		if(answer.country != result.question.country) {
+		if(answer.country != result.question.country && result.answers.indexOf(answer) == -1) {
 			answer.right = false;
 			result.answers.push(answer);
 		}
