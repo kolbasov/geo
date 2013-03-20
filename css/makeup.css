@@ -26,6 +26,6 @@ h1:first-letter {
 }
 
 #question div:hover {
-	border-left: solid 6px red;
-	padding-left: 9px;
+	color: red;
+	font-weight: bold;
 }
