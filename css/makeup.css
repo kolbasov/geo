@@ -1,5 +1,9 @@
+* {
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
-	font-family: Calibri, sans-serif;
+	font-family: 'Segoe UI', Calibri, sans-serif;
 }
 
 h1 {
